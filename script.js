@@ -2,7 +2,6 @@ const refresh = document.querySelector('.refresh')
 const balloon = document.querySelectorAll('.balloon')
 const grey= document.querySelectorAll('.grey')
 const boxes= document.querySelector('.boxes img')
-const src= document.get
 
 let idx = 0
 
@@ -15,7 +14,7 @@ balloon.forEach(el =>{
 
 refresh.addEventListener('click', () => {
     grey.forEach((item) => {
-        item.src = "./img/standard_white.gif"
+        item.src = "./images/standard_white.gif"
     })
     idx = 0
 })
