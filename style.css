@@ -1,0 +1,20 @@
+.balloons{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 70vh;
+}
+.balloons img{
+    /*width: 100px;*/
+    /*height: 150px;*/
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+}
+
+.greyBalloon{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
