@@ -159,11 +159,3 @@
 // console.log(func([1,3,4,'str', 6])('string'))
 // console.log(func([1,3,4,'str', 6])('str')) // пустой массив
 
-
-
-// function simpleArraySum(ar) {
-//     return ar.forEach(item => item+item)
-// }
-// console.log(simpleArraySum())
-
-
